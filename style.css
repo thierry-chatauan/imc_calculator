@@ -8,6 +8,7 @@ body{
     
 }
 
+
 .container{ 
     display: flex;   
     width: 400px;
@@ -45,6 +46,16 @@ h1{
     text-align: center;
 }
 
+button{
+    background-color: black;
+    color:  rgb(255, 198, 0);
+    border-radius: 3px;
+    width: 300px;
+    height: 40px;
+    font: bold 1.2rem serif;
+    cursor:pointer;
+}
+
 #result{
     margin: auto;
     width: 300px;
@@ -52,4 +63,9 @@ h1{
     background-color: rgb(3, 3, 3);
     color: rgb(149, 197, 240);
     font-size: 30px;
+    border-radius: 10px;
+}
+
+.hidden{
+    display: none;
 }
